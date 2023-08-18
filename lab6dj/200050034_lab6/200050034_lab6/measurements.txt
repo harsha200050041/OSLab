@@ -1,0 +1,25 @@
+same number of computations:
+    default:
+        Child pid: 5, Waiting Time: 40, Run Time: 13
+        Child pid: 7, Waiting Time: 43, Run Time: 14
+        Child pid: 4, Waiting Time: 44, Run Time: 15
+        Child pid: 6, Waiting Time: 43, Run Time: 17
+    lets-get-even:
+        Child pid: 5, Waiting Time: 30, Run Time: 15
+        Child pid: 7, Waiting Time: 32, Run Time: 15
+        Child pid: 4, Waiting Time: 47, Run Time: 14
+        Child pid: 6, Waiting Time: 47, Run Time: 15
+
+diff number of computations:
+    default:
+        Child pid: 9, Waiting Time: 1, Run Time: 0
+        Child pid: 10, Waiting Time: 35, Run Time: 17
+        Child pid: 11, Waiting Time: 52, Run Time: 34
+        Child pid: 12, Waiting Time: 51, Run Time: 50
+    lets-get-even:
+        Child pid: 10, Waiting Time: 0, Run Time: 0
+        Child pid: 12, Waiting Time: 33, Run Time: 33
+        Child pid: 11, Waiting Time: 50, Run Time: 17
+        Child pid: 13, Waiting Time: 50, Run Time: 53
+
+
